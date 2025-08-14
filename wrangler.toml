@@ -1,0 +1,8 @@
+name = "tszxnat64-worker123"
+type = "javascript"
+# main = "./worker.js"  # 暂时注释掉，不启用
+account_id = "31c4315ae7a53240bd71735350c2bfaf"  # 在Cloudflare Workers控制台找
+workers_dev = true
+route = ""
+zone_id = ""
+main = "./Vless_workers_pages/vless无需proxyip的nat64套壳版 (推荐使用).js"
